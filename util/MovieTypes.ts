@@ -1,6 +1,6 @@
 export type MovieType = {
   id: number;
-  oritinal_title: string;
+  original_title: string;
   backdrop_path: string;
 };
 
