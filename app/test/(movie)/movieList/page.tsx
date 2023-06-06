@@ -2,7 +2,11 @@
 import Image from "next/image";
 import { MovieType, MoviesType } from "@/util/MovieTypes";
 
+import * as Icon from "./test";
+
 const MovieList = ({ page, results }: MoviesType) => {
+  const Comp = Icon["T"];
+  // 문자열로 받아야하니깐 대괄호로
   return (
     <>
       {results.map((movie: MovieType) => {
